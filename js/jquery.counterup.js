@@ -1,11 +1,4 @@
-/*!
-* jquery.counterup.js 1.0
-*
-* Copyright 2013, Benjamin Intal http://gambit.ph @bfintal
-* Released under the GPL v2 License
-*
-* Date: Nov 26, 2013
-*/
+
 (function( $ ){
   "use strict";
 
@@ -36,15 +29,15 @@
             // Generate list of incremental numbers to display
             for (var i = divisions; i >= 1; i--) {
 
-                // Preserve as int if input was int
+                
                 var newNum = parseInt(num / divisions * i);
 
-                // Preserve float if input was float
+                
                 if (isFloat) {
                     newNum = parseFloat(num / divisions * i).toFixed(decimalPlaces);
                 }
 
-                // Preserve commas if input had commas
+                
                 if (isComma) {
                     while (/(\d+)(\d{3})/.test(newNum.toString())) {
                         newNum = newNum.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');

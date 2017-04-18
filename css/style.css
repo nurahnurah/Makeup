@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
-/* var text-decoration */
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -82,8 +81,35 @@ header .navbar-default .navbar-nav li a {
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: red;
 }
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
 /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/

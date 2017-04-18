@@ -1,5 +1,5 @@
 body  {
-    background-image: url("purpletiedye.jpg");
+    background-image: url("purplewatercolor.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,15 +31,48 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 
-#list h2{
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
 
+
+}
+#list .row h2{
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
 }
 
 
 
 
 
+
+
+
+}
   footer {
   background: #F5F5F5;
   text-align: center;
