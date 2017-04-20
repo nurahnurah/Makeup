@@ -1,9 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
 body  {
-    background-image: url("purplewatercolor.jpg");
+    /*background-image: url("makeup border.jpeg");*/
+    background-color: pink;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
 }
 header {
   background: #fff;
@@ -32,15 +39,19 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 
 }
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+font header .navbar-default .navbar-nav li a:visited {
+  color: purple;
 }
-a:visited {
-    color: blue;
+
+a:link {
+    color: grey;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
+}
+li a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
 }
 a:hover {
     color: red;
@@ -55,8 +66,8 @@ a:active {
 
 
 
-}
-#list .row h2{
+
+#list .class h2{
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -64,10 +75,6 @@ a:active {
   margin-top: 0;
   text-transform: capitalize;
 }
-
-
-
-
 
 
 
